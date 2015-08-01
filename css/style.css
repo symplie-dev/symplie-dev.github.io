@@ -1,0 +1,97 @@
+/*
+  #d95e40 rgb(217,94,64)
+  #f2992e rgb(242,153,46)
+  #529ecc rgb(82,158,204)
+  #56bc8a rgb(86,188,138)
+  #a77dc2 rgb(167,125,194)
+*/
+
+html, body {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.hero-outer {
+  display: table;
+  height: 100%;
+  overflow: auto;
+  position: relative;
+  width: 100%;
+}
+
+.hero-middle {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.hero {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 500px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.hero h1 {
+  color: #1e1e1e;
+  font-size: 46px;
+  font-weight: 300;
+  letter-spacing: 0.3em;
+}
+
+.hero h2 {
+  color: #606162;
+  font-size: 18px;
+  padding: 30px 0;
+}
+
+.hero .btn-wrapper {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 40%;
+}
+
+.hero .btn-wrapper:first-child { padding-right: 10px; }
+.hero .btn-wrapper:last-child { padding-left: 10px; }
+
+@media (max-width: 350px) {
+  .hero .btn-wrapper { width: 100%; }
+  .hero .btn-wrapper:first-child { margin-bottom: 20px; padding: 0; }
+  .hero .btn-wrapper:last-child { padding: 0; }
+}
+
+.hero a {
+  background: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 8px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.hero a:hover {
+  text-decoration: underline;
+}
+
+@keyframes animatedColor {
+  0%   { color: rgba(82,158,204, 1.0);  border-color: rgba(82,158,204, 1.0); }
+  20%  { color: rgba(86,188,138, 1.0);  border-color: rgba(86,188,138, 1.0); }
+  40%  { color: rgba(242,153,46, 1.0);  border-color: rgba(242,153,46, 1.0); } 
+  60%  { color: rgba(217,94,64, 1.0);   border-color: rgba(217,94,64, 1.0); }
+  80%  { color: rgba(167,125,194, 1.0); border-color: rgba(167,125,194, 1.0); }
+  100% { color: rgba(82,158,204, 1.0);  border-color: rgba(82,158,204, 1.0); } 
+} 
+
+
+.hero a.animated-color {
+  animation-name: animatedColor;
+  animation-duration: 25s; 
+  animation-fill-mode: both; 
+  animation-iteration-count: infinite;
+}
