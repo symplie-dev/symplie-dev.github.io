@@ -117,8 +117,8 @@ html, body {
 
 
 .hero a.animated-color {
-  -webkit-animation-name: animatedColor 25s infinite;
-     -moz-animation-name: animatedColor 25s infinite;
-       -o-animation-name: animatedColor 25s infinite;
-          animation-name: animatedColor 25s infinite;
+  -webkit-animation: animatedColor 25s infinite;
+     -moz-animation: animatedColor 25s infinite;
+       -o-animation: animatedColor 25s infinite;
+          animation: animatedColor 25s infinite;
 }
