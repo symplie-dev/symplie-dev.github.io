@@ -30,6 +30,9 @@
 .inner img {
   display: block;
   margin: auto;
+}
+
+.inner img.logo {
   width: 128px;
 }
 
