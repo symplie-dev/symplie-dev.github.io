@@ -76,7 +76,12 @@ html, body {
   width: 100%;
 }
 
+a:link {color:inherit}
+a:active {color:inherit}
+a:visited {color:inherit}
+
 .hero a:hover {
+  color: inherit;
   text-decoration: underline;
 }
 
