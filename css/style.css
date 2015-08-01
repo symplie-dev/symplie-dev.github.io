@@ -70,6 +70,7 @@ html, body {
   border-width: 1px;
   border-radius: 4px;
   box-sizing: border-box;
+  color: inherit;
   display: inline-block;
   padding: 10px;
   text-decoration: none;
@@ -122,7 +123,7 @@ a:visited {color:inherit}
 } 
 
 
-.hero a.animated-color {
+.hero .btn-wrapper.animated-color {
   -webkit-animation: animatedColor 25s infinite;
      -moz-animation: animatedColor 25s infinite;
        -o-animation: animatedColor 25s infinite;
