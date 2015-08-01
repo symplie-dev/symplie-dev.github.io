@@ -79,6 +79,33 @@ html, body {
   text-decoration: underline;
 }
 
+@-webkit-keyframes animatedColor {
+  0%   { color: rgba(82,158,204, 1.0);  border-color: rgba(82,158,204, 1.0); }
+  20%  { color: rgba(86,188,138, 1.0);  border-color: rgba(86,188,138, 1.0); }
+  40%  { color: rgba(242,153,46, 1.0);  border-color: rgba(242,153,46, 1.0); } 
+  60%  { color: rgba(217,94,64, 1.0);   border-color: rgba(217,94,64, 1.0); }
+  80%  { color: rgba(167,125,194, 1.0); border-color: rgba(167,125,194, 1.0); }
+  100% { color: rgba(82,158,204, 1.0);  border-color: rgba(82,158,204, 1.0); } 
+}
+
+@-moz-keyframes animatedColor {
+  0%   { color: rgba(82,158,204, 1.0);  border-color: rgba(82,158,204, 1.0); }
+  20%  { color: rgba(86,188,138, 1.0);  border-color: rgba(86,188,138, 1.0); }
+  40%  { color: rgba(242,153,46, 1.0);  border-color: rgba(242,153,46, 1.0); } 
+  60%  { color: rgba(217,94,64, 1.0);   border-color: rgba(217,94,64, 1.0); }
+  80%  { color: rgba(167,125,194, 1.0); border-color: rgba(167,125,194, 1.0); }
+  100% { color: rgba(82,158,204, 1.0);  border-color: rgba(82,158,204, 1.0); } 
+}
+
+@-o-keyframes animatedColor {
+  0%   { color: rgba(82,158,204, 1.0);  border-color: rgba(82,158,204, 1.0); }
+  20%  { color: rgba(86,188,138, 1.0);  border-color: rgba(86,188,138, 1.0); }
+  40%  { color: rgba(242,153,46, 1.0);  border-color: rgba(242,153,46, 1.0); } 
+  60%  { color: rgba(217,94,64, 1.0);   border-color: rgba(217,94,64, 1.0); }
+  80%  { color: rgba(167,125,194, 1.0); border-color: rgba(167,125,194, 1.0); }
+  100% { color: rgba(82,158,204, 1.0);  border-color: rgba(82,158,204, 1.0); } 
+}
+
 @keyframes animatedColor {
   0%   { color: rgba(82,158,204, 1.0);  border-color: rgba(82,158,204, 1.0); }
   20%  { color: rgba(86,188,138, 1.0);  border-color: rgba(86,188,138, 1.0); }
@@ -90,8 +117,8 @@ html, body {
 
 
 .hero a.animated-color {
-  animation-name: animatedColor;
-  animation-duration: 25s; 
-  animation-fill-mode: both; 
-  animation-iteration-count: infinite;
+  -webkit-animation-name: animatedColor 25s infinite;
+     -moz-animation-name: animatedColor 25s infinite;
+       -o-animation-name: animatedColor 25s infinite;
+          animation-name: animatedColor 25s infinite;
 }
