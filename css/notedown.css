@@ -168,6 +168,13 @@ a.shadow-btn:hover {
   text-align: center;
 }
 
+.section-container.footer a:visited,
+.section-container.footer a:hover
+.section-container.footer a {
+  color: #aaa;
+  text-decoration: underline;
+}
+
 .plm { padding-left: 15px; }
 .prm { padding-right: 15px; }
 
