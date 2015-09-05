@@ -1,0 +1,112 @@
+.hero-wrapper {
+  border-bottom: 1px solid #ccc;
+  display: table;
+  height: 550px;
+  position: relative;
+  width: 100%;
+}
+
+.hero-middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hero-inner {
+  margin: auto;
+  max-width: 1024px;
+  width: 100%;
+}
+
+.hero-inner img.logo {
+  display: block;
+  margin: 20px auto;
+  width: 75px;
+}
+
+.hero-inner h1 {
+  color: #111;
+  font-family: 'Robot', Helvetica, Arial, sans-serif;
+  font-size: 46px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.hero-inner h2 {
+  color: #111;
+  font-family: 'Robot', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.hero-inner .store-btn img {
+  display: block;
+  margin: 30px auto;
+  width: 200px;
+}
+
+/* --- */
+
+.demo-wrapper {
+  display: table;
+  height: 550px;
+  position: relative;
+  width: 100%;
+}
+
+.demo-middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.demo-inner {
+  margin: auto;
+  max-width: 1024px;
+  width: 100%;
+}
+
+
+.demo-inner h1 {
+  color: #111;
+  font-family: 'Robot', Helvetica, Arial, sans-serif;
+  font-size: 46px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+#appContainer {
+  border: 1px solid #ccc;
+  height: 600px;
+  margin: 40px auto;
+  position: relative;
+  width: 380px;
+}
+
+
+.section-container {
+  display: table;
+  font-family: 'Robot', Helvetica, Arial, sans-serif;
+  margin: auto;
+  max-width: 1024px;
+  padding: 40px 0;
+  position: relative;
+  width: 100%;
+}
+
+.section-container.footer {
+  border-top: 1px solid #ccc;
+}
+
+.section-container.footer p {
+  color: #aaa;
+  font-size: 14px;
+  text-align: center;
+}
+
+.section-container.footer a:visited,
+.section-container.footer a:hover
+.section-container.footer a {
+  color: #aaa;
+  text-decoration: underline;
+}
